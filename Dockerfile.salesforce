@@ -1,0 +1,4 @@
+FROM sparkmeter/pdi:latest
+
+# Copy salesforce plugins to the plugins directory
+COPY ./plugins/ plugins/

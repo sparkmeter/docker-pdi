@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin
+   id="SforceBulkSpoonInput"
+   iconfile="SalesforceBulkInput.png"
+   description="Salesforce Bulk Input"
+   tooltip="Use the Salesforce Bulk API to get large volume of data"
+   category="Input"
+   classname="org.pentaho.di.trans.steps.sforcebulkinput.SalesforceBulkInputMeta">
+   <libraries>
+     <library name="pdi-sforcebulk-input-1.2.0.jar"/>
+     <library name="lib/antlr-2.7.7.jar"/>
+	 <library name="lib/antlr-runtime-3.5.jar"/>
+	 <library name="lib/commons-beanutils-1.8.0.jar"/>
+	 <library name="lib/commons-logging-1.1.1.jar"/>
+	 <library name="lib/force-partner-api-41.0.0.jar"/>
+	 <library name="lib/force-wsc-41.0.0.jar"/>
+	 <library name="lib/jackson-core-asl-1.9.13.jar"/>
+	 <library name="lib/jackson-mapper-asl-1.9.13.jar"/>
+	 <library name="lib/pdi-salesforce-plugin-6.1.0.1-196.jar"/>
+	 <library name="lib/ST4-4.0.7.jar"/>
+	 <library name="lib/stringtemplate-3.2.1.jar"/>
+   </libraries>
+   <localized_category>
+     <category locale="en_US">Input</category>
+     <category locale="nl_NL">Input</category>
+     <category locale="fr_FR">Extraction</category>
+     <category locale="zh_CN">输入</category>
+   </localized_category>
+   <localized_description>
+     <description locale="en_US">Salesforce Bulk Input</description>
+     <description locale="nl_NL">Salesforce Bulk Input</description>
+     <description locale="fr_FR">Extraction batch Salesforce</description>
+     <description locale="zh_CN">Salesforce Bulk  输入</description>
+   </localized_description>
+   <localized_tooltip>
+     <tooltip locale="en_US">Salesforce Bulk Input</tooltip>
+     <tooltip locale="nl_NL">Salesforce Bulk Input</tooltip>
+     <tooltip locale="fr_FR">Salesforce Bulk Input</tooltip>
+     <tooltip locale="zh_CN">Salesforce Bulk 输入</tooltip>
+   </localized_tooltip>
+</plugin>
